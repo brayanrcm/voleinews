@@ -177,19 +177,19 @@
 
         // Cores Neon
         const colors = [
-            '#FF0055', // Rosa Choque
-            '#00FFFF', // Ciano
-            '#B400FF', // Roxo
-            '#FFFF00', // Amarelo
-            '#00FF00'  // Verde
+            '#FF0055', // azul metalico
+            '#00FFFF', // verde neon
+            '#B400FF', // roxo neon
+            '#FFFF00', // vermelho metalico
+            '#00FF00'  // preto neon
         ];
 
         // Objetos do Jogo
         const ball = {
             x: canvas.width / 2,
             y: canvas.height - 40,
-            dx: 5,
-            dy: -5,
+            dx: 8,
+            dy: -8,
             radius: 8,
             color: '#ffffff',
             glow: '#00FFFF'
@@ -197,7 +197,7 @@
 
         const paddle = {
             height: 15,
-            width: 120,
+            width: 145,
             x: (canvas.width - 120) / 2,
             y: canvas.height - 20,
             color: '#ffffff',
